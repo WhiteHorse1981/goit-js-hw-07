@@ -17,4 +17,4 @@ function createGallaryMarkup(items) {
 }
 
 refsGallery.innerHTML = createGallaryMarkup(galleryItems);
-let lightbox = new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250 });
+new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250 });
