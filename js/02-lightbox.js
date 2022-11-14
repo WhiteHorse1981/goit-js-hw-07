@@ -23,8 +23,9 @@ refsGallery.addEventListener('click', clickImage);
 function clickImage(evt) {
   evt.preventDefault();
 
-  if (evt.target.nodeName !== 'IMG') {
-    return;
-  }
+  // if (evt.target.nodeName !== 'IMG') {
+  //   return;
+  // }
   let lightbox = new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250 });
+  return;
 }
